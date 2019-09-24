@@ -6,13 +6,13 @@ import NavBar from "./NavBar";
 
 import "./Layout.scss";
 import "./index.scss";
+import navButtons from "../config/buttons.js";
 
 const Layout = props => {
 
     const appTitle = `> WHATABYTE`;
 
     return (
-
         <div className="Layout">
             <Head>
                 <title>WHATABYTE</title>
@@ -22,7 +22,7 @@ const Layout = props => {
 
             <Header appTitle={appTitle} />
             <div className="Content">{props.children}</div>
-            <NavBar />
+            <NavBar navButtons={navButtons} />
         </div>
     )
 };
