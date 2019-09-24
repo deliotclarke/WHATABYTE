@@ -3,7 +3,7 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
 
-const Index = () => {
+const Index = () => (
     <Layout>
         <br />
 
@@ -12,6 +12,6 @@ const Index = () => {
         </Link>
     </Layout>
 
-};
+);
 
 export default Index;
