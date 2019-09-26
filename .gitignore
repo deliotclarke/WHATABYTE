@@ -1,4 +1,4 @@
-node_modules
 .next
 
 report.*.json
+node_modules
